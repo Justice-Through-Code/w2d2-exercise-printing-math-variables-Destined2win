@@ -55,8 +55,8 @@ def hotter_temp():
     celsius_temp = (fahrenheit_temp -32) * 5/9
 
     if celsius_temp > 30.2:
-         print(f"{celsius_temp:.1f} degrees celsius is hotter is hotter") 
+         print(f"{celsius_temp:.1f} degrees celsius is hotter") 
     else: 
-        print(f"{fahrenheit_temp:.1f} degrees celsius is hotter")
+        print(f"{fahrenheit_temp:.1f} degrees fahrenheit is hotter")
         
 hotter_temp()
