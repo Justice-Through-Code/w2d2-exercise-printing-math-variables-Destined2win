@@ -51,12 +51,21 @@ convert_5_to_fahrenheit()
 def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
-    fahrenheit_temp = 85.1
-    celsius_temp = (fahrenheit_temp -32) * 5/9
 
-    if celsius_temp > 30.2:
-         print(f"{celsius_temp:.1f} degrees celsius") 
-    else: 
+
+    # fahrenheit_temp = 85.1
+    # celsius_temp = 30.2
+    celsius_temp = 30.2
+    fahrenheit_temp = (85.1 - 32) * 5/9
+
+    if celsius_temp > fahrenheit_temp:
+        print(f"{celsius_temp:.1f} degrees celsius")
+    else:
         print(f"{fahrenheit_temp:.1f} degrees fahrenheit")
+
+    # if celsius_temp > 30.2:
+    #      print(f"{celsius_temp:.1f} degrees celsius") 
+    # else: 
+    #     print(f"{fahrenheit_temp:.1f} degrees fahrenheit")
         
 hotter_temp()
