@@ -9,7 +9,7 @@ def convert_100_to_celsius():
     # Print 'float' if it is a float or 'int' if it is an int
      if isinstance(celsius_100, float):
          print('float')
-         
+
     # How do you know? Write a comment below your code explaining how you know which it is
     # After I print my variable I am giving an output of 37.7 which is a decimal. All numbers with a decimal are considered float.
 
@@ -55,7 +55,7 @@ def hotter_temp():
     celsius_temp = (fahrenheit_temp -32) * 5/9
 
     if celsius_temp > 30.2:
-         print(f"{celsius_temp:.1f} degrees celsius is hotter") 
+         print(f"{celsius_temp:.1f} degrees celsius is hotter is hotter") 
     else: 
         print("30.2 degrees celsius is hotter")
         
