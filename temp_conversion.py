@@ -7,7 +7,9 @@ def convert_100_to_celsius():
 
     # Is the resulting temperature you get an integer or float? float
     # Print 'float' if it is a float or 'int' if it is an int
-     print(float)
+     if isinstance(celsius_100, float):
+         print('float')
+         
     # How do you know? Write a comment below your code explaining how you know which it is
     # After I print my variable I am giving an output of 37.7 which is a decimal. All numbers with a decimal are considered float.
 
